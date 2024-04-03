@@ -22,6 +22,10 @@ Dự án này cung cấp hai API cho chuyển đổi văn bản thành giọng n
     ```bash
     pipenv install -r requirements.txt
     ```
+    Kiểm tra các thư viện có trong environment chạy lệnh:
+    ```bash
+    pip list
+    ```
 4. Thoát khỏi môi trường ảo khi bạn đã hoàn thành:
 
     ```bash
@@ -29,8 +33,8 @@ Dự án này cung cấp hai API cho chuyển đổi văn bản thành giọng n
     ```
 
 ## Chạy FastAPI
-
-Chạy dự án FastAPI bằng lệnh sau:
+1. Cài đặt các tham số của mô hình trong file .env
+2. Chạy dự án FastAPI bằng lệnh sau:
 
 ```bash
 uvicorn main:app --reload
