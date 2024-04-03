@@ -10,20 +10,17 @@ Dự án này cung cấp hai API cho chuyển đổi văn bản thành giọng n
     pipenv install
     ```
 
-2. Kích hoạt môi trường ảo:
-
+2. Kích hoạt môi trường ảo và chạy lệnh sau:
     ```bash
     pipenv shell
     ```
-
+    ```bash
+    pip install openai
+    ```
 3. Cài đặt các thư viện bổ sung (nếu có) bằng cách thêm chúng vào `requirements.txt` và chạy lệnh:
 
     ```bash
     pipenv install -r requirements.txt
-    ```
-    Và
-    ```bash
-    pip install openai
     ```
 4. Thoát khỏi môi trường ảo khi bạn đã hoàn thành:
 
